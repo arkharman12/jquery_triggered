@@ -1,0 +1,49 @@
+<!----------
+TITLE: Triggered
+AUTHOR: Harmanjot Singh (HS)
+PURPOSE: Triggered Assignment
+ORIGINALLY CREATED ON: 28 March 2019
+LAST MODIFIED ON: 28 March 2019
+LAST MODIFIED BY: Harmanjot Singh (HS)
+MODIFICATION HISTORY: Original Build
+---------->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">  
+    <title>Triggered</title>
+
+    <link rel="stylesheet" href="triggered.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="section-one">
+        <p>Enter your name: <input type="text"></p>
+        <p>Keypresses: <span id="keypresses">0</span> <button id="reset" class="buttonOne button-reset">Reset</button> </p>
+        <p>Enter your name in the input field above. It will change background color on keydown and keyup.</p>
+    </div>
+
+    <div id="section-two">
+        <!-- Mouse enter and leave -->
+        <p id="mouse1">Move the mouse pointer over this paragraph.</p>
+
+        <!-- Mouse up and down -->
+        <p id="mouse2">Press down and release the mouse button over this paragraph element.</p>
+
+        <!-- X and Y screen coordinates -->
+        <p>Mouse is at coordinates: <span id="coordinates"></span></p>
+    </div>
+
+    <br/><br/>
+    <br/><br/>
+    <a href="/index.html" class="previous">Course Page</a>
+
+    <script src="triggered.js"></script>
+</body>
+</html>
