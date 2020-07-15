@@ -1,1 +1,2 @@
-# js_triggered
+# JS Triggered
+Practice with jQuery event handling
